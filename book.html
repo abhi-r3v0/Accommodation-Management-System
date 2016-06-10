@@ -1,0 +1,109 @@
+<!DOCTYPE html>
+<html>
+<link rel="stylesheet" type="text/css" href="book.css" >
+<head><title> Booking </title></head>
+<body>
+<form action="book.php" method="POST">
+<center>
+<table style="width:40%">
+<h1><font style="Courier" color="white"> <center> Fill in the details </font></center></h1>
+<form action="book.php" method="POST">
+
+<tr>
+<td>
+Arrival             <td><input type="text" name="from"></td>
+</td>
+</tr>
+
+<br>
+
+<tr>
+<td>
+Departure           <td><input type="text" name="to"></td>
+</td>
+</tr>
+
+</br>
+
+<tr>
+<td>
+Room type          <td><select id="css" name="rtype" class="csstext">
+  			<option value="Usual"> Usual </option>
+  			<option value="Dormetry"> Dormetry </option>
+	           </select></td>
+</td>
+</tr>
+
+</br>
+
+<tr>
+<td col>
+Room Number        <td><input type="text" name="rno"></td>
+</td>
+</tr>
+
+</br>
+
+<tr>
+<td>
+Name               <td><input type="text" name="name"></td>
+</td>
+</tr>
+
+</br>
+
+<tr>
+<td>
+Email              <td><input type="text" name="email"></td>
+</td>
+</tr>
+
+</br>
+
+<tr>
+<td>
+Phone              <td><input type="text" name="phone"></td>
+</td>
+</tr>
+
+</br>
+
+<tr>
+<td>
+Adults             <td><select id="css" name="adults" class="csstext">
+  			<option value="1"> 1 </option>
+  			<option value="2"> 2 </option>
+			<option value="3"> 3 </option>
+			<option value="4"> 4</option>
+	           </select></td>
+</td>
+</tr>
+
+</br>
+
+<tr>
+<td>
+Children           <td><select id= "css" name="children" class="csstext">
+  			<option value="1"> 1 </option>
+  			<option value="2"> 2 </option>
+			<option value="3"> 3 </option>
+			<option value="4"> 4</option>
+	           </select></td>
+</td>    
+</tr>
+
+
+<br>
+<div class="s">
+<br>
+<br>
+<br>
+<tr><td><center><input type="submit" name="submit" value="Book"></center> </tr></td>
+<tr><td><p><a href = "index.html"><center><button type="button" class="button"> Home </button></center></a></p></tr></td>
+</div>
+</form>
+
+</table>
+</center>
+</body>
+</html>

@@ -1,0 +1,77 @@
+body{
+
+}
+
+.w{
+	background-image:url("21.jpg");
+	background-attachment: fixed;
+}
+
+.a{
+	font-family:"times new";
+	font-size:65px;  
+}
+
+.b{
+	
+	font : 20px arial, sans-serif; 
+}
+
+
+
+/*  BUTTONS  */
+
+.button {
+    background-color: #4CAF50; 
+    border: none;
+    color: white;
+    padding: 15px 32px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+}
+
+.button:hover {
+    box-shadow: 0 12px 16px 0 rgba(0,0,0,0.24), 0 17px 50px 0 rgba(0,0,0,0.19);
+}
+
+.button1:hover {
+    box-shadow: 0 12px 16px 0 rgba(0,0,0,0.24), 0 17px 50px 0 rgba(0,0,0,0.19);
+}
+
+.button1{
+    background-color: #ff3300; 
+    border: none;
+    color: white;
+    padding: 12px 32px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+}
+
+
+.button2:hover {
+    box-shadow: 0 12px 16px 0 rgba(0,0,0,0.24), 0 17px 50px 0 rgba(0,0,0,0.19);
+}
+
+.button2{
+    background-color: #006666; 
+    border:solid;
+    color: white;
+    padding: 3px 20px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 10px;
+    
+}
+
+footer{
+	background-color:black;
+	color:white;
+	font-family:"Algerian";
+	font-size:12px;
+	background-attachment:fixed;
+}
